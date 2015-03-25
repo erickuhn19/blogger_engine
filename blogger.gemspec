@@ -5,13 +5,13 @@ require "blogger/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "blogger"
+  s.name        = "blogger_engine"
   s.version     = Blogger::VERSION
   s.authors     = ["Eric Kuhn"]
   s.email       = ["erickuhn19@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Blogger."
-  s.description = "TODO: Description of Blogger."
+  s.homepage    = ""
+  s.summary     = "A simple rails blogging engine"
+  s.description = ""
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
